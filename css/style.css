@@ -244,6 +244,7 @@ nav.active{
 }
 
 .industry i{
+    overflow-y: hidden;
     font-size: 1.8rem;
     margin-right: 5px; 
     line-height: 1.3rem;
