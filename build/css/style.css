@@ -227,7 +227,7 @@ nav.active{
     font-weight: bolder;
 }
 
-/*====ABOUT AND SERVICES SHORT====*/
+/*====ABOUT AND INDUSTRIES SHORT====*/
 .info-short i{
     font-size: 3rem;
 }
@@ -352,12 +352,8 @@ footer hr{
 }
 
 @media screen and (max-width:1280px){
-    .estimate-img h2{
+    .clients-img h2{
         font-size: 3rem;
-    }
-
-    .estimate-img h3{
-        font-size: 1.5rem;
     }
 
     footer{
@@ -386,8 +382,7 @@ footer hr{
     }
 }
 
-@media screen and (max-width:960px){  
-    
+@media screen and (max-width:960px){     
 
     .landing-text h1{
         font-size: 4rem;
@@ -447,16 +442,12 @@ footer hr{
         margin-bottom: 2rem;
     }
     
-    .services-short h3{
+    .industries-short h3{
         font-size: 1.5rem;
     }
 
-    .estimate-img h2{
+    .clients-img h2{
         font-size: 2rem;
-    }
-
-    .estimate-img h3{
-        font-size: 1.3rem;
     }
 
     form.grid2{
@@ -481,23 +472,15 @@ footer hr{
         font-size: 1.1rem; 
     }
 
-    .services-short h3{
+    .industries-short h3{
         font-size: 1.3rem;
     }
 
-    .estimate-img h2{
+    .clients-img h2{
         font-size: 1.7rem;
         margin-top: 20vh
     }
-
-    .estimate-img h3{
-        font-size: 1.2rem;
-    }
-
-    .form-submit .btn{
-        margin-right: 0;
-    }
-
+    
     footer{
         grid-template-columns: 1fr!important;
     }
@@ -540,24 +523,12 @@ footer hr{
         font-size: 1.3rem;
     }
 
-    .services-short h3{
+    .industries-short h3{
         font-size: 1.2rem;
     }
 
-    .form-item{
-        width: 73%;
-    }
-
-    .form-item label, .form-item .error, .form-item input, .form-item textarea{
-        font-size: 0.9rem;
-    }
 }
 
-@media screen and (max-width:340px){
-    .form-item label, .form-item .error, .form-item input, .form-item textarea{
-        font-size: 0.85rem;
-    }
-}
 
 @media screen and (max-width:320px){
     .section-head{
@@ -568,11 +539,8 @@ footer hr{
         font-size: 1rem; 
     }
 
-    .services-short h3{
+    .industries-short h3{
         font-size: 1.1rem;
     }
 
-    .form-item label, .form-item .error, .form-item input, .form-item textarea{
-        font-size: 0.8rem;
-    }
 }
